@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="id_activityScreenTitles">
+        <item>Ana Sayfa</item>
+        <item>Hesabım</item>
+        <item>Öneri ve Mesajlar</item>
+        <item>Spor</item>
+        <item/>
+        <item>Çıkış Yap</item>
+
+    </string-array>
+
+    <array name="id_activityScreenIcons">
+        <item>@drawable/ic_home_outline_grey600_24dp</item>
+        <item>@drawable/ic_account_outline_grey600_24dp</item>
+        <item>@drawable/ic_email_outline_grey600_24dp</item>
+        <item>@drawable/basketball_icon_small_24dp</item>
+        <item>0</item>
+        <item>@drawable/ic_logout_grey600_24dp</item>
+
+    </array>
+
+</resources>

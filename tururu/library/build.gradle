@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply from: rootProject.file('release-bintray.gradle')
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+}
+
+dependencies {
+    implementation deps.annotations
+    implementation deps.androidxCompat
+    implementation 'libs/android-smartband-sdk-sxrblejy2aidl-release.aar'
+    implementation 'libs/android-smartband-sdk-sxrblejy2library-release.aar'
+}

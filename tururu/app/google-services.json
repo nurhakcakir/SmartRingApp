@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "884849780726",
+    "firebase_url": "https://tururu-d7165-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tururu-d7165",
+    "storage_bucket": "tururu-d7165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884849780726:android:2b91780524dc45c45909d7",
+        "android_client_info": {
+          "package_name": "com.example.tururu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyp_oP63jJycbyeBLJX6vzo3zneFjJHbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
